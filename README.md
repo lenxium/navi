@@ -1,0 +1,2 @@
+# navi
+ Developed a pathfinding algorithm simulator for my A-Level Computer Science NEA project, integrating Randomised Prim’s Algorithm to create dynamically generated mazes to visualise and analyse the efficiency of different pathfinding algorithms, including A*, Dijkstra, Depth-First and Breadth-First search in such a manner that the user can choose whether to complete the maze manually or automatically. It also includes performance analysis tools for comparing algorithm efficiency and a login & registration system to track the user’s maze exploration progress.
