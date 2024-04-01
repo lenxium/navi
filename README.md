@@ -1,4 +1,4 @@
-# NAVI Simulator V1.6.1
+# NAVI Simulator
 ## Introduction
 This is a unique pathfinding algorithm simulator that integrates dynamic maze generation using the randomised Prim algorithm, providing an environment of varying complexity to visualise and compare the efficiency of different algorithms, including A*, Dijkstra, Depth-First and Breadth-First search. The simulator features a minimalist interface, manual exploration of maze modes, and performance analysis tools for in-depth algorithm efficiency comparisons in varying complex mazes. It also includes a login registration system to track the user's maze exploration progress (more features may be included in the future)
 ## Compilation Environment
