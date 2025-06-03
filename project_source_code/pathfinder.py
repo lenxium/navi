@@ -198,7 +198,7 @@ def dataDFS(maze, start, end):
                 if 0 <= new_x < maze.width and 0 <= new_y < maze.height and maze.map[new_y][new_x] == 0:
                     stack.append(((new_x, new_y), path + [current_position]))
 
-    time_taken = time.time() - start_time
+    time_taken = (time.time() - start_time) * 1000
     return 0, 0, time_taken  # No path found
 
 def dataBFS(maze, start, end):
@@ -226,7 +226,7 @@ def dataBFS(maze, start, end):
                 if 0 <= new_x < maze.width and 0 <= new_y < maze.height and maze.map[new_y][new_x] == 0:
                     queue.append(((new_x, new_y), path + [current_position]))
 
-    time_taken = time.time() - start_time
+    time_taken = (time.time() - start_time) * 1000
     return 0, 0, time_taken  # No path found
 
 def dataDijkstra(maze, start, end):
@@ -256,7 +256,7 @@ def dataDijkstra(maze, start, end):
 
                     heapq.heappush(priority_queue, (new_cost, (new_x, new_y), path + [current_position]))
 
-    time_taken = time.time() - start_time
+    time_taken = (time.time() - start_time) * 1000
     return 0, 0, time_taken  # No path found
 
 def dataAStar(maze, start, end):
@@ -287,5 +287,5 @@ def dataAStar(maze, start, end):
 
                     heapq.heappush(priority_queue, (new_cost + heuristic_cost, (new_x, new_y), path + [current_position]))
 
-    time_taken = time.time() - start_time
+    time_taken = (time.time() - start_time) * 1000
     return 0, 0, time_taken  # No path found
